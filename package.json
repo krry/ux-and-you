@@ -1,0 +1,36 @@
+{
+  "name": "ux",
+  "version": "0.0.1",
+  "description": "a site that considers ux",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "~1.0.2",
+    "ejs": "~1.0.0",
+    "express": "~4.1.2",
+    "method-override": "~1.0.0",
+    "morgan": "~1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krry/ux.git"
+  },
+  "keywords": [
+    "ux",
+    "user",
+    "experience",
+    "web",
+    "design",
+    "web",
+    "development"
+  ],
+  "author": "Kerry Snyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krry/ux/issues"
+  },
+  "homepage": "https://github.com/krry/ux"
+}
