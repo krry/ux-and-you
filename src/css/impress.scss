@@ -1,0 +1,65 @@
+// technicality classes
+.fallback {
+  font-family: serif;
+  color: maroon;
+  line-height: 1.5;
+  width: 40em;
+  margin: 2em auto;
+  padding: 1em;
+  border: 1px dotted;
+  border-radius: .25em;
+}
+
+.impress-supported .fallback {
+  display: none;
+}
+
+.typekit-badge {
+  display: none;
+}
+
+
+// main impress.js class styles
+.step {
+  position: relative;
+  width: 50em;
+  padding: 4em;
+  margin: 1em auto;
+  font-size: 3em;
+}
+
+.impress-enabled .step {
+  margin: 0;
+  opacity: 0.2;
+  transition: opacity 750ms;
+}
+
+.impress-enabled .step.active {
+  opacity: 1;
+}
+
+.slide {
+  display: block;
+  width: 60em;
+  height: 45em;
+  background: $white;
+  border: 1px solid;
+  color: $darkgrey;
+  font-size: 2em;
+}
+
+aside {
+  font-size: .5em;
+}
+
+.present * {
+
+}
+
+.past * {
+
+}
+
+.future * {
+
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>UX &amp; You</title>
+    
+    <meta name="description" content="An over-and-under-view of UX and how it relates to you" />
+    <meta name="author" content="Kerry Snyder" />
+
+    <!-- Typekit fonts -->
+    <script type="text/javascript" src="//use.typekit.net/dyo2bhb.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+    <link href="css/ux.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback">
+    <p>Your sad excuse for a web browser is depriving you of this experience, but you may still read the content.</p>
+    <p>Time to try out <a href="https://www.google.com/intl/en_US/chrome/browser/">Chrome</a>.</p>
+</div>
+
+<div id="impress" data-transition-duration="1000" data-perspective="1000">
+
+<!--
+    
+    a summary of all the possible attributes used to position presentation steps
+    
+    * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+        the canvas in pixels; their default value is 0;
+    * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+        the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+        are exactly the same;
+    * `data-scale` - defines the scale of step element; default value is 1
+    
+    These values are used by impress.js in CSS transformation functions, so for more information consult
+    CSS transform docs: https://developer.mozilla.org/en/CSS/transform
+    
+-->
+    <div id="step-1" class="step slide" data-x="0" data-y="-1500" data-z="0" data-scale="1" data-rotate="0" data-rotate-x="-40" data-rotate-y="10">
+        <h2>UX is a whackronym</h2>
+        <aside>It is both an <b>acronym</b> and it is <b><i>whack</i></b></aside>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <h2>UX occurs when a human interacts with a computer</h2>
+        <aside>They call that HCI (or Human-Computer Interaction)</aside>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <aside>At this point, you might say to yourself</aside>
+        <h2>UX is an absurdly broad field</h2>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <h4>As a field of work or study</h4>
+        <h2><span class="dropcap">U</span>ser E<span class="dropcap">X</span>perience</h2>
+        <p>can emcompass any factor that influences a user's experience of that software</p>
+    </div>
+
+    <div id="ux+you" class="step slide" data-x="-1000" data-y="-1500">
+        <h1 class="huge">UX+You</h1>
+    </div>
+
+    <div class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <h2>Much like solar for your home, UX is mired in myths</h2>
+        <aside>Let's check out a few</aside>
+    </div>
+
+    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <h2>Myth #31: <a href="http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project">UX design is a step in a project</a></h2>
+    </div>
+
+    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <h2>Myth #19: <a href="http://uxmyths.com/post/718187422/myth-you-dont-need-the-content-to-design-a-website">You don’t need the content to design a website</a></h2>
+    </div>
+
+    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <h2>Myth #8: <a href="http://uxmyths.com/post/705397950/myth-ornamental-graphics-improves-the-users-experience">Stock photos improve the users’ experience</a></h2>
+    </div>
+
+    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <h2>Myth #3: <a href="http://uxmyths.com/post/654047943/myth-people-dont-scroll">People don’t scroll</a></h2>
+    </div>
+
+    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <h2>Myth #1: <a href="http://uxmyths.com/post/647473628/myth-people-read-on-the-web">People read on the web</a></h2>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+    </div>
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* beat that, prezi ;)</span>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Navigate with *space* *&larr;* *&rarr;*</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>document.ready(function(){impress().init()})</script>
+
+<script>
+    var api = impress();
+    api.init();
+    api.next();
+    api.prev();
+    // api.goto( idx | id | element, [duration] );
+</script>
+
+</body>
+</html>
