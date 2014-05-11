@@ -16,7 +16,7 @@ app.use(require('method-override')());
 app.set('port', port);
 
 app.get('/', function(req, res) {
-  res.render('ux_you.html');
+  res.render('ux+you.html');
 });
 
 app.listen(app.get('port'));

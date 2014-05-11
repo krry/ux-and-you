@@ -1,6 +1,3 @@
-@import "vars";
-
-// technicality classes
 .fallback {
   font-family: serif;
   color: maroon;
@@ -9,55 +6,47 @@
   margin: 2em auto;
   padding: 1em;
   border: 1px dotted;
-  border-radius: .25em;
-}
+  border-radius: .25em; }
 
 .impress-supported .fallback {
-  display: none;
-}
+  display: none; }
 
 .typekit-badge {
-  display: none !important;
-}
+  display: none !important; }
 
-
-// main impress.js class styles
 .step {
   position: relative;
-  // min-width: 92vw;
   width: 100vw;
   height: 100vh;
   padding: 1em;
   margin: 1em auto;
-  background: rgba(255,255,255,0.25);
-}
+  background: rgba(255, 255, 255, 0.25); }
 
 .impress-enabled .step {
   opacity: 0.2;
-  transition: opacity 750ms;
-}
+  transition: opacity 750ms; }
 
 .impress-enabled .step.active {
-  opacity: 1;
-}
+  opacity: 1; }
 
 .step img {
   max-width: 90vw;
   max-height: 90vh;
   position: absolute;
   z-index: 0;
-  top: 0; bottom: 0; left: 0; right: 0;
-  margin: auto;
-}
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 .step h2 {
   position: relative;
   z-index: 10;
   font-size: 3em;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: .25em .75em;
-  margin: 0 1em;
-}
+  margin: 0 1em; }
 
 .hint {
   position: fixed;
@@ -66,74 +55,33 @@
   left: 0;
   right: 0;
   text-align: center;
-  bottom: 2em;
-}
+  bottom: 2em; }
 
 .slide {
   display: block;
   width: 60em;
   height: 45em;
-  background: $white;
+  background: white;
   border: 1px solid;
-  color: $darkgrey;
-  font-size: 2em;
-}
+  color: #444444;
+  font-size: 2em; }
 
 aside {
   font-size: .5em;
-  opacity: .8;
-}
+  opacity: .8; }
 
 .tiny {
-  font-size: 0.25em;
-}
+  font-size: 0.25em; }
 
 #overview {
-  display: none
-}
+  display: none; }
 
 .impress-on-overview .step {
   opacity: 1;
-  cursor: pointer;
-}
-
-.present * {
-
-}
+  cursor: pointer; }
 
 .past *, .past {
-  opacity: 0;
-
-}
+  opacity: 0; }
 
 .future *, .future {
-  opacity: 0;
-
-}
-
-.facet {}
-.role {}
-.example {}
-
-#psychology {}
-#users {}
-#human {}
-
-#economics {}
-#stakeholder {}
-#product {}
-
-#aesthetics {}
-#designers {}
-#design {}
-
-#technology {}
-#devs {}
-#program {}
-
-#recap {}
-
-#intro {}
-#spectrum {}
-#process {}
-
+  opacity: 0; }

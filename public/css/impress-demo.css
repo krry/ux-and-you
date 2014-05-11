@@ -430,8 +430,7 @@ a:focus {
 }
 
 /*
-    Below we position each word separately along Z axis and we want it to transition
-    to default position in 0.5s when the step gets `present` class.
+    Below we position each word separately along Z axis and we want it to transition to default position in 0.5s when the step gets `present` class.
 
     Quite a simple idea, but lot's of styles and prefixes.
 */

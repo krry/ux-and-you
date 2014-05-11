@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>UX &amp; You</title>
-    
+
     <meta name="description" content="An over-and-under-view of UX and how it relates to you" />
     <meta name="author" content="Kerry Snyder" />
 
@@ -17,7 +17,7 @@
 
 
     <link href="css/ux.css" rel="stylesheet" />
-    
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -25,118 +25,224 @@
 <body class="impress-not-supported">
 
 <div class="fallback">
-    <p>Your sad excuse for a web browser is depriving you of this experience, but you may still read the content.</p>
+    <p>Your sad excuse for a browser is depriving you of this experience, but you may still read the content.</p>
     <p>Time to try out <a href="https://www.google.com/intl/en_US/chrome/browser/">Chrome</a>.</p>
 </div>
 
-<div id="impress" data-transition-duration="1000" data-perspective="1000">
+<div id="impress" data-transition-duration="750" data-perspective="1000">
 
 <!--
-    
+
     a summary of all the possible attributes used to position presentation steps
-    
+
     * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
         the canvas in pixels; their default value is 0;
     * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
         the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
         are exactly the same;
     * `data-scale` - defines the scale of step element; default value is 1
-    
+
     These values are used by impress.js in CSS transformation functions, so for more information consult
     CSS transform docs: https://developer.mozilla.org/en/CSS/transform
-    
+
 -->
-    <div id="step-1" class="step slide" data-x="0" data-y="-1500" data-z="0" data-scale="1" data-rotate="0" data-rotate-x="-40" data-rotate-y="10">
-        <h2>UX is a whackronym</h2>
-        <aside>It is both an <b>acronym</b> and it is <b><i>whack</i></b></aside>
-    </div>
+    <section id="intro">
+        <div id="whack" class="step" data-x="6656" data-y="1536" data-rotate="180" data-scale="1">
+            <h2>UX is a whackronym</h2>
+            <aside>It is both an <b>acronym</b> and it is <b><i>whack</i></b></aside>
+        </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <h2>UX occurs when a human interacts with a computer</h2>
-        <aside>They call that HCI (or Human-Computer Interaction)</aside>
-    </div>
+        <div id="hci" class="step" data-x="6656" data-y="2560" data-rotate="180" data-scale="1">
+            <h2>UX occurs when a human interacts with a computer</h2>
+            <aside>They call that HCI (or Human-Computer Interaction)</aside>
+        </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <aside>At this point, you might say to yourself</aside>
-        <h2>UX is an absurdly broad field</h2>
-    </div>
+        <div id="broad" class="step" data-x="6656" data-y="3584" data-rotate="180" data-scale="1">
+            <aside>At this point, you might say to yourself</aside>
+            <h2>UX is an absurdly broad field</h2>
+        </div>
 
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <h4>As a field of work or study</h4>
-        <h2><span class="dropcap">U</span>ser E<span class="dropcap">X</span>perience</h2>
-        <p>can emcompass any factor that influences a user's experience of that software</p>
-    </div>
+        <div id="field" class="step" data-x="6656" data-y="4608" data-rotate="180" data-scale="1">
+            <h2><span class="dropcap">U</span>ser E<span class="dropcap">X</span>perience</h2>
+            <p>can encompass any factor that influences a user's experience of that software</p>
+        </div>
 
-    <div id="ux+you" class="step slide" data-x="-1000" data-y="-1500">
-        <h1 class="huge">UX+You</h1>
-    </div>
+        <div id="myths" class="step" data-x="6656" data-y="5632" data-rotate="150" data-scale="1">
+            <h2>Much like solar for your home, UX is mired in myths</h2>
+            <aside>Let's check out a few</aside>
+        </div>
 
-    <div class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <h2>Much like solar for your home, UX is mired in myths</h2>
-        <aside>Let's check out a few</aside>
-    </div>
+        <div id="myth31" class="step myth" data-x="7680" data-y="6144" data-rotate="120" data-scale="1">
+            <h2>Myth #31: <a href="http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project">UX design is a step in a project</a></h2>
+        </div>
 
-    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <h2>Myth #31: <a href="http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project">UX design is a step in a project</a></h2>
-    </div>
+        <div id="myth8" class="step myth" data-x="8704" data-y="6656" data-rotate="90" data-scale="1">
+            <h2>Myth #8: <a href="http://uxmyths.com/post/705397950/myth-ornamental-graphics-improves-the-users-experience">Stock photos improve a user's experience</a></h2>
+            <img src="img/stock.jpg" alt="">
+        </div>
 
-    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <h2>Myth #19: <a href="http://uxmyths.com/post/718187422/myth-you-dont-need-the-content-to-design-a-website">You don’t need the content to design a website</a></h2>
-    </div>
+        <div id="myth3" class="step myth" data-x="9728" data-y="6144" data-rotate="60" data-scale="1">
+            <h2>Myth #3: <a href="http://uxmyths.com/post/654047943/myth-people-dont-scroll">People don’t scroll</a></h2>
+        </div>
 
-    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <h2>Myth #8: <a href="http://uxmyths.com/post/705397950/myth-ornamental-graphics-improves-the-users-experience">Stock photos improve the users’ experience</a></h2>
-    </div>
+        <div id="bridge" class="step" data-x="10752" data-y="5632" data-rotate="30" data-scale="1">
+            <aside>Myths aside, we're not here to talk about what UX isn't.</aside>
+            <h2>UX arose as enough people came to an unsettling conclusion.</h2>
+        </div>
 
-    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <h2>Myth #3: <a href="http://uxmyths.com/post/654047943/myth-people-dont-scroll">People don’t scroll</a></h2>
-    </div>
+        <div id="gap" class="step" data-x="10752" data-y="4608" data-rotate="0" data-scale="1" data-transition-duration="3000">
+            <h2><em>Our innovation outpaces our understanding of our innovations.</em></h2>
+        </div>
 
-    <div class="step myth" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <h2>Myth #1: <a href="http://uxmyths.com/post/647473628/myth-people-read-on-the-web">People read on the web</a></h2>
-    </div>
+        <div id="multiplier" class="step" data-x="10752" data-y="3584" data-rotate="0" data-scale="1">
+            <h2>Useful technology multiplies human effort.</h2>
+            <p>Paradoxically, this multiplier is the cause behind the widening gap between people and the technology that can improve their lives.</p>
+        </div>
 
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-    </div>
+        <div id="touchscreen" class="step" data-x="10752" data-y="2560" data-rotate="0" data-scale="1">
+            <q>"Wild conjecture!", you say.</q>
+            <h2>Take, for example, the touchscreen</h2>
+            <h4>Some short years ago, the touchscreen was born...</h4>
+            <h2>This invention can enable us to literally manipulate all the information in the universe.</h2>
+        </div>
 
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-    </div>
+        <div id="complexity" class="step" data-x="10752" data-y="1536" data-rotate="0" data-scale="1">
+            <h2>And few of us understand how a mutual capacitive touchscreen works</h2>
+            <p>Rightly so, it does dozens of patents and thousands and thousands of R&D hours to bring to market.</p>
+            <ul class="tiny">
+                <li><a href="https://www.google.com/patents/US20080007539">"Mutual capacitance touch sensing device"</a></li>
+                <li><a href="https://www.google.com/patents/US20110007030">"Ultrathin mutual capacitance touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US20100302201">"Sensor patterns for mutual capacitance touchscreens"</a></li>
+                <li><a href="https://www.google.com/patents/US7663607">"Multipoint touchscreen 1"</a></li>
+                <li><a href="https://www.google.com/patents/WO2005114369">"Multipoint touchscreen 2"</a></li>
+                <li><a href="https://www.google.com/patents/US8605051">"Multipoint touchscreen 3"</a></li>
+                <li><a href="https://www.google.com/patents/US20110221700">"Mutual capacitance touch screen with dual conductive films"</a></li>
+                <li><a href="https://www.google.com/patents/US20100110038">"Combined mutual capacitance touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US20120182253">"Capacitive Touchscreen with fingerprint reader"</a></li>
+                <li><a href="https://www.google.com/patents/US8278571">"Capacitive touchscreen for finger or stylus"</a></li>
+                <li><a href="https://www.google.com/patents/US7479949">"Touch screen interface"</a></li>
+                <li><a href="https://www.google.com/patents/US8174510">"Capacitive touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US8599150">"Touchscreen electrode configuration"</a></li>
+                <li><a href="https://www.google.com/patents/US8659553">"Orientation-sensing touchscreen"</a></li>
+                <li><a href="https://www.google.com/patents/US20120146922">"Touchscreen panel manufacture"</a></li>
+                <li><a href="https://www.google.com/search?tbm=pts&hl=en&q=touchscreen#hl=en&q=mutual+capacitance+touchscreen">"Google Patents Search for Mutual Capacitive Touchscreen"</a></li>
+            </ul>
+        </div>
+    </section>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
+    <section id="overview" class="step" data-scale="24">
+        <div class="left">tech</div>
+        <div class="right-side">you</div>
+    </section>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
+    <section id="spectrum">
+        <div id="psychology" class="step facet">
+            <h2>Psychology</h2>
+            <h3>The UXer serves the user</h3>
+            <p>So understanding humans and their motivations is the primary responsibility of the UXer</p>
+        </div>
+        <div id="users" class="step role">
+            <h2>Users</h2>
+            <h3>have wants and needs</h3>
+        </div>
+        <div id="human" class="step example">
+            <h2>Person's name</h2>
+            <p>What this person wants or needs</p>
+            <img src="img/human.jpg" alt="human">
+        </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
-    </div>
+        <div id="economics" class="step facet">
+            <h2>Economics</h2>
+            <p>A UXer needs a sponsor, client, cause, or business that understands the value of a good experience</p>
+        </div>
+        <div id="stakeholders" class="step role">
+            <h2>Stakeholders</h2>
+            <p>provide a goal, a problem worth solving</p>
+        </div>
+        <div id="product" class="step example">
+            <h2>Product name</h2>
+            <p>With enough users, this product will better our world.</p>
+        </div>
 
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
+        <div id="aesthetics" class="step face">
+            <h2>Aesthetics</h2>
+            <p>Purely functional technology is frightening, sometimes ugly, so it repels many potential users</p>
+        </div>
+        <div id="designers" class="step role">
+            <h2>Designers</h2>
+            <p>given a well-defined problem, can determine and describe the optimal solution</p>
+        </div>
+        <div id="design" class="step example">
+            <h2>Design name</h2>
+            <p>This solution, if we can build it, will delight every user.</p>
+        </div>
 
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
+        <div id="technology" class="step facet">
+            <h2>Technology</h2>
+            <p>The UXer strives to make technology serve the user.</p>
+            <aside>And to prevent the user from serving the technology.</aside>
+        </div>
+        <div id="devs" class="step role">
+            <h2>Devs</h2>
+            <h3>can build anything, with proper direction</h3
+        </div>
+        <div id="app" class="step example">
+            <h2>App name</h2>
+            <p>The application of algorithms and heuristics to a problem can represent untold value</p>
+        </div>
 
+        <div id="recap" class="step">
+            <h2>Full spectrum</h2>
+            <img src="img/UX_spectrum.gif" alt="UX Spectrum">
+        </div>
+    </section>
+
+    <section id="process">
+        <div id="goal" class="step">
+            <h2>Business goals</h2>
+        </div>
+        <div id="research" class="step">
+            <h2>User research</h2>
+        </div>
+        <div id="appraisal" class="step">
+            <h2>Technology appraisal</h2>
+        </div>
+        <div id="flow" class="step">
+            <h2>Flow map</h2>
+        </div>
+        <div id="reqts" class="step">
+            <h2>Requirements document</h2>
+        </div>
+        <div id="prototype" class="step">
+            <h2>Interface prototype</h2>
+        </div>
+        <div id="polish" class="step">
+            <h2>Visuals and polish</h2>
+        </div>
+        <div id="development" class="step">
+            <h2>Development</h2>
+        </div>
+        <div id="testing" class="step">
+            <h2>Testing</h2>
+        </div>
+        <div id="iteration" class="step">
+            <h2>Iteration</h2>
+        </div>
+    </section>
 </div>
 
 <div class="hint">
-    <p>Navigate with *space* *&larr;* *&rarr;*</p>
+    <p>Navigate with <code>space</code> <code>&larr;</code> <code>&rarr;</code></p>
 </div>
+
 <script>
-if ("ontouchstart" in document.documentElement) { 
+if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Tap left or right to navigate</p>";
 }
 </script>
 
 <script src="js/impress.js"></script>
-<script>document.ready(function(){impress().init()})</script>
+<script>impress().init()</script>
 
 <script>
     var api = impress();

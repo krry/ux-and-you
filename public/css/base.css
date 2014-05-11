@@ -1,0 +1,65 @@
+/*
+Syntax error: Undefined variable: "$pns".
+        on line 7 of src/css/base.scss
+
+2: html {
+3:   font-size: 16px;
+4: }
+5: 
+6: body {
+7:   font-family: $pns;
+8:   line-height: 1.5;
+9:   min-height: 48em;
+10:   background: $black;
+11:   color: $white
+12: }
+
+Backtrace:
+src/css/base.scss:7
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin.rb:107:in `method_missing'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:463:in `watch_or_update'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/bin/sass:9:in `<top (required)>'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/bin/sass:23:in `load'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$pns\".\A         on line 7 of src/css/base.scss\A \A 2: html {\A 3:   font-size: 16px;\A 4: }\A 5: \A 6: body {\A 7:   font-family: $pns;\A 8:   line-height: 1.5;\A 9:   min-height: 48em;\A 10:   background: $black;\A 11:   color: $white\A 12: }"; }
