@@ -49,15 +49,14 @@ src/css/base.scss:7
 /Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
 /Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
 /Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:235:in `watch'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin.rb:107:in `method_missing'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:463:in `watch_or_update'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/bin/sass:9:in `<top (required)>'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/bin/sass:23:in `load'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/bin/sass:23:in `<main>'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
 */
 body:before {
   white-space: pre;
