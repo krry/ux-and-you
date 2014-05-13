@@ -19,4 +19,8 @@ app.get('/', function(req, res) {
   res.render('ux+you.html');
 });
 
+app.get('/demo', function(req, res) {
+  res.render('index.html');
+});
+
 app.listen(app.get('port'));

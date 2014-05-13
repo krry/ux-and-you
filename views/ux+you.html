@@ -29,98 +29,164 @@
     <p>Time to try out <a href="https://www.google.com/intl/en_US/chrome/browser/">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</p>
 </div>
 
+<div class="hint">
+    <nav>
+        <span class="instructions">use keys or these<br></span>
+        <a id="prev_slide" onclick="impress().prev()">&larr;</a>
+        <a id="home_slide" onclick="impress().goto(0)" class="back-home">&#8962;</a>
+        <a id="next_slide" onclick="impress().next()">&rarr;</a>
+    </nav>
+</div>
+
 <div id="impress" data-transition-duration="750" data-perspective="1000">
 
-    <section id="overview" class="step" data-x="0" data-y="0" data-scale="12">
-        <div class="left">tech</div>
-        <div class="right-side">you</div>
+    <section id="overview" class="step" data-x="0" data-y="0" data-scale="20">
+        <div class="left side">you</div>
+        <div class="right side">tech</div>
     </section>
 
     <section id="intro">
-        <div id="whack" class="step" data-x="-4000" data-y="-2000" data-rotate-x="20" data-rotate-y="180" data-rotate="180" data-scale="1">
-            <h2>whackronym, <em>n.</em></h2>
-            <p>It's an acronym that is <span class="emph">whack</span>.</p>
-            <p>For uxample, &lsquo;<span class="dropcap">UX</span>&rsquo; stands for <br>&lsquo;<span class="dropcap">u</span>ser e<span class="dropcap">x</span>perience&rsquo;.</p>
+        <div id="whack" class="step" data-x="-3942" data-y="-2216" data-rotate="180" data-scale="1">
+            <header class="headline">UX and You: Intro</header>
+            <h2>whackronym, <em>n.,</em></h2>
+            <h3>an acronym that is <span class="emph">whack</span>.</h3>
+            <div id="uxample" class="tray content">
+                <div class="eg ib">E.g.,</div>
+                <p class="ib"><em><span class="dropcap">u</span>ser e<span class="dropcap">x</span>perience abbreviated as <span class="dropcap">UX</span> is a straight-up <em>whackronym</em>.</em></p>
+            </div>
         </div>
 
-        <div id="hci" class="step tier2" data-x="-4000" data-y="-1080" data-rotate-x="-20" data-rotate="180" data-scale="1">
-            <h2>HCI <small>(Human-Computer Interaction)</small></h2>
-            <p><span class="dropcap">UX</span> occurs <br>when a human interacts with a computer</p>
+        <div id="hci" class="step tier2" data-x="-3942" data-y="-1238" data-rotate="180" data-rotate-y="180" data-scale="1">
+            <header class="headline">UX and You: Intro</header>
+            <aside>HCI (Human-Computer Interaction) is not a whackronym.</aside>
+            <h3>Wherever there is <span class="dropcap">HCI</span><br>there is <span class="dropcap">UX</span></h3>
+            <div class="tray full just">
+                <iframe class="ib" src="https://giphy.com/embed/5ldzCDWspq9HO?playOnHover=true" width="245" height="150" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe class="ib" src="https://giphy.com/embed/ZcX52Tf5sBsys?playOnHover=true" width="245" height="150" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe class="ib" src="https://giphy.com/embed/eg8oF9a007VOU?playOnHover=true" width="245" height="150" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
-        <div id="broad" class="step tier3" data-x="-4000" data-y="-160" data-rotate-x="20" data-rotate-y="180" data-rotate="180" data-scale="1">
+        <div id="field" class="step tier3" data-x="-3942" data-y="-260" data-rotate="180" data-scale="1">
+            <header class="headline">UX and You: Intro</header>
             <aside>At this point, you might say to yourself</aside>
-            <h2>UX is an absurdly broad field</h2>
+            <h3><span class="dropcap">UX</span> is an absurdly broad field</h3>
+            <iframe class="ib center" src="https://giphy.com/embed/rJ3MTY2MtU6qc?playOnHover=true" width="640" height="360" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <aside>And you'd be right</aside>
         </div>
 
-        <div id="field" class="step tier4" data-x="-4000" data-y="760" data-rotate-x="-20" data-rotate="180" data-scale="1">
-            <h2><span class="dropcap">U</span>ser E<span class="dropcap">X</span>perience</h2>
-            <p>can encompass any factor that influences a person's experience with a machine</p>
+        <div id="broad" class="step tier4" data-x="-3942" data-y="718" data-rotate="180" data-rotate-y="180" data-scale="1">
+            <header class="headline">UX and You: Intro</header>
+            <h2><span class="dropcap">U</span>ser e<span class="dropcap">X</span>perience</h2>
+            <p>Tautologically <span class="dropcap">UX</span> concerns itself with any factor that influences a user's experience with a machine</p>
+            <div class="tray full just">
+                <iframe class="ib" src="https://giphy.com/embed/FxBgVD0rdBrnW?playOnHover=true" width="334" height="251" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/O1xeZ4AgSaNBS?playOnHover=true" width="357" height="251" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
         <div id="myths" class="step tier5" data-x="-3764" data-y="1410" data-rotate="150" data-scale="1">
-            <h2>UX is mired in myths</h2>
-            <aside>Let's check out a few...</aside>
+            <header class="headline">UX Myths</header>
+            <aside>Before we get into the nitty-gritty</aside>
+            <h2>Let's bust a few myths</h2>
+            <iframe class="ib center" src="https://giphy.com/embed/wXgBk2fM696gM?playOnHover=true" width="450" height="253" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
 
-        <div id="myth31" class="step myth" data-x="-3264" data-y="1923" data-rotate="120" data-scale="1">
-            <h2>Myth #31:</h2>
-            <p><a href="http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project">UX design is a step in a project</a></p>
+        <div id="myth31" class="step myth" data-x="-3264" data-y="1923" data-z="3" data-rotate="120" data-scale="1">
+            <header class="headline">UX Myths</header>
+            <h2><a href="http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project" target="_blank">Myth #31</a></h2>
+            <h3><span class="dropcap">UX</span> design is a step in a project</h3>
+            <p>Rather, proper <span class="dropcap">UX</span> design touches upon most of the steps:</p>
+            <ul class="tray content">
+                <li>project objectives</li>
+                <li>business requirements</li>
+                <li>user research</li>
+                <li>tech architecture</li>
+                <li>interface design</li>
+                <li>aesthetic design</li>
+                <li>prototyping</li>
+                <li>usability testing</li>
+            </ul>
+            <aside>Jump ahead to <a href="#goal">the whole <span class="dropcap">UX</span> process</a> if you'd like.</aside>
         </div>
 
-        <div id="myth8" class="step myth" data-x="-2574" data-y="2103" data-rotate="90" data-scale="1">
-            <h2>Myth #8:</h2>
-            <p><a href="http://uxmyths.com/post/705397950/myth-ornamental-graphics-improves-the-users-experience">Stock photos improve a user's experience</a></p>
+        <div id="myth8" class="step myth" data-x="-2574" data-y="2103" data-z="2" data-rotate="90" data-scale="1">
+            <header class="headline">UX Myths</header>
+            <h2><a href="http://uxmyths.com/post/705397950/myth-ornamental-graphics-improves-the-users-experience" target="_block">Myth #8</a></h2>
+            <h4 class="full">Stock photos improve a user's experience</h4>
             <img src="img/stock.jpg" alt="">
         </div>
 
-        <div id="myth3" class="step myth" data-x="-1884" data-y="1923" data-rotate="60" data-scale="1">
-            <h2>Myth #3:</h2>
-            <p><a href="http://uxmyths.com/post/654047943/myth-people-dont-scroll">People don’t scroll</a></p>
+        <div id="myth3" class="step myth" data-x="-1884" data-y="1923" data-z="1" data-rotate="60" data-scale="1">
+            <header class="headline">UX Myths</header>
+            <h2><a href="http://uxmyths.com/post/654047943/myth-people-dont-scroll" target="_blank">Myth #3</a></h2>
+            <h3>People don’t scroll</h3>
+            <div class="just tray full">
+                <iframe class="ib" src="https://giphy.com/embed/YW7AMDxMenBPG?playOnHover=true" width="317" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe class="ib" src="https://giphy.com/embed/8CAFRDokyQkhi?playOnHover=true" width="375" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
         <div id="bridge" class="step tier5" data-x="-1384" data-y="1410" data-rotate="30" data-scale="1">
-            <h2>Myths aside</h2>
-            <p>We're not here to talk about what UX isn't.</p>
-            <h3 class="emph">UX arose as enough people came to an unsettling conclusion.</h3>
+            <header class="headline">UX Theory</header>
+            <aside>But we're not here to talk about what UX <em>isn't</em>.</aside>
+            <h2>Where did UX come from?</h2>
+            <p><span class="dropcap">UX</span> arose as a field of study and practice as more and more people in various occupations came to an unsettling conclusion.</p>
+            <iframe class="ib center" src="https://giphy.com/embed/FSSKVJPj3NadG?playOnHover=true" width="500" height="354" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
 
-        <div id="gap" class="step tier4" data-x="-1212" data-y="760" data-rotate-x="-20" data-rotate="0" data-scale="1" data-transition-duration="3000">
-            <h2><em>Our innovation outpaces our understanding of our innovations.</em></h2>
+        <div id="gap" class="step tier4" data-x="-1212" data-y="718" data-rotate="0" data-rotate-y="180" data-scale="1">
+            <header class="headline">UX Theory</header>
+            <h3>Human <strong>innovation</strong> outpaces human <strong>understanding</strong> of innovations.</h3>
+            <p><span class="dropcap">UX</span>ers seek to bridge the widening gap between people and new technology that can improve their lives</p>
+            <div class="just tray full">
+                <iframe class="ib" src="https://giphy.com/embed/RLe18mB59828o?playOnHover=true" width="188" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe class="ib" src="https://giphy.com/embed/RmamyDifvX8nm?playOnHover=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe class="ib" src="https://giphy.com/embed/toWExTzyclleM?playOnHover=true" width="180" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
-        <div id="multiplier" class="step tier3" data-x="-1212" data-y="-160" data-rotate-x="20" data-rotate-y="180" data-rotate="0" data-scale="1">
+        <div id="multiplier" class="step tier3" data-x="-1212" data-y="-260" data-rotate="0" data-scale="1">
+            <header class="headline">UX Theory</header>
             <h2>Useful technology multiplies human effort.</h2>
             <p>Paradoxically, this multiplier is the cause behind the widening gap between people and the technology that can improve their lives.</p>
         </div>
 
-        <div id="touchscreen" class="step tier2" data-x="-1212" data-y="-1080" data-rotate-x="-20" data-rotate="0" data-scale="1">
+        <div id="touchscreen" class="step tier2" data-x="-1212" data-y="-1238" data-rotate="0" data-rotate-y="180" data-scale="1">
+            <header class="headline">UXample</header>
             <aside>"Wild conjecture!", you say.</aside>
-            <h2>Take, for example, the touchscreen</h2>
-            <p>Some short years ago, the touchscreen was born&#8230;<br>an invention that can enable us to literally manipulate all the information in the universe.</p>
+            <h3>Take the touchscreen<br> for instance</h3>
+            <p>Some short years ago, the touchscreen was born&mdash;an invention that <em>literally</em> puts data at our fingertips.</p>
+            <div class="just tray full">
+                <iframe src="https://giphy.com/embed/NgfWjr6PhX8t2?playOnHover=true" width="429" height="182" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/DDBlkSpNqHyRW?playOnHover=true" width="350" height="182" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
-        <div id="complexity" class="step" data-x="-1212" data-y="-2000" data-rotate-x="20" data-rotate-y="180" data-rotate="0" data-scale="1">
-            <h2>And few of us understand how a mutual capacitive touchscreen works</h2>
-            <p>Rightly so, it does dozens of patents and thousands and thousands of R&amp;D hours to bring to market.</p>
-            <ul class="tiny">
-                <li><a href="https://www.google.com/patents/US20080007539">"Mutual capacitance touch sensing device"</a></li>
-                <li><a href="https://www.google.com/patents/US20110007030">"Ultrathin mutual capacitance touch screen"</a></li>
-                <li><a href="https://www.google.com/patents/US20100302201">"Sensor patterns for mutual capacitance touchscreens"</a></li>
-                <li><a href="https://www.google.com/patents/US7663607">"Multipoint touchscreen 1"</a></li>
-                <li><a href="https://www.google.com/patents/WO2005114369">"Multipoint touchscreen 2"</a></li>
-                <li><a href="https://www.google.com/patents/US8605051">"Multipoint touchscreen 3"</a></li>
-                <li><a href="https://www.google.com/patents/US20110221700">"Mutual capacitance touch screen with dual conductive films"</a></li>
-                <li><a href="https://www.google.com/patents/US20100110038">"Combined mutual capacitance touch screen"</a></li>
-                <li><a href="https://www.google.com/patents/US20120182253">"Capacitive Touchscreen with fingerprint reader"</a></li>
-                <li><a href="https://www.google.com/patents/US8278571">"Capacitive touchscreen for finger or stylus"</a></li>
-                <li><a href="https://www.google.com/patents/US7479949">"Touch screen interface"</a></li>
-                <li><a href="https://www.google.com/patents/US8174510">"Capacitive touch screen"</a></li>
-                <li><a href="https://www.google.com/patents/US8599150">"Touchscreen electrode configuration"</a></li>
-                <li><a href="https://www.google.com/patents/US8659553">"Orientation-sensing touchscreen"</a></li>
-                <li><a href="https://www.google.com/patents/US20120146922">"Touchscreen panel manufacture"</a></li>
-                <li><a href="https://www.google.com/search?tbm=pts&hl=en&q=touchscreen#hl=en&q=mutual+capacitance+touchscreen">"Google Patents Search for Mutual Capacitive Touchscreen"</a></li>
-            </ul>
+        <div id="complexity" class="step" data-x="-1212" data-y="-2216" data-rotate="0" data-scale="1">
+            <header class="headline">UXample</header>
+            <p>How many smartphone users understand how a mutual capacitive touchscreen works?</p>
+
+            <p>Rightly so, it took dozens of patents and thousands and thousands of <span class="dropcap">R&amp;D</span> hours to bring to market.</p>
+            <ol class="tray content tiny ib">
+                <li><a href="https://www.google.com/patents/US20080007539" target="_blank">"Mutual capacitance touch sensing device"</a></li>
+                <li><a href="https://www.google.com/patents/US20110007030" target="_blank">"Ultrathin mutual capacitance touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US20100302201" target="_blank">"Sensor patterns for mutual capacitance touchscreens"</a></li>
+                <li><a href="https://www.google.com/patents/US7663607" target="_blank">"Multipoint touchscreen 1"</a></li>
+                <li><a href="https://www.google.com/patents/WO2005114369" target="_blank">"Multipoint touchscreen 2"</a></li>
+                <li><a href="https://www.google.com/patents/US8605051" target="_blank">"Multipoint touchscreen 3"</a></li>
+                <li><a href="https://www.google.com/patents/US20110221700" target="_blank">"Mutual capacitance touch screen with dual conductive films"</a></li>
+                <li><a href="https://www.google.com/patents/US20100110038" target="_blank">"Combined mutual capacitance touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US20120182253" target="_blank">"Capacitive Touchscreen with fingerprint reader"</a></li>
+                <li><a href="https://www.google.com/patents/US8278571" target="_blank">"Capacitive touchscreen for finger or stylus"</a></li>
+                <li><a href="https://www.google.com/patents/US7479949" target="_blank">"Touch screen interface"</a></li>
+                <li><a href="https://www.google.com/patents/US8174510" target="_blank">"Capacitive touch screen"</a></li>
+                <li><a href="https://www.google.com/patents/US8599150" target="_blank">"Touchscreen electrode configuration"</a></li>
+                <li><a href="https://www.google.com/patents/US8659553" target="_blank">"Orientation-sensing touchscreen"</a></li>
+                <li><a href="https://www.google.com/patents/US20120146922" target="_blank">"Touchscreen panel manufacture"</a></li>
+                <li><a href="https://www.google.com/search?tbm=pts&hl=en&q=touchscreen#hl=en&q=mutual+capacitance+touchscreen" target="_blank">"Google Patents Search for Mutual Capacitive Touchscreen"</a></li>
+            </ol>
+
         </div>
     </section>
 
@@ -164,6 +230,7 @@
         <div id="design" class="step example" data-x="1970" data-y="240" data-rotate="30" data-scale="1">
             <h2>Design name</h2>
             <p>This solution, if we can build it, will delight every user.</p>
+            <iframe class="ib center" src="https://giphy.com/embed/pdKaXbHNup0Eo?playOnHover=true" width="400" height="225" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
 
         <div id="technology" class="step facet" data-x="4000" data-y="1920" data-rotate="150" data-scale="1">
@@ -186,35 +253,52 @@
     </section>
 
     <section id="process">
-        <div class="step" data-x="0" data-y="0" data-rotate-y="90" data-z="4500" id="goal" data-scale="1">
+        <div id="goal" class="step" data-x="0" data-y="0" data-rotate-y="90" data-z="4500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Business goals</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-z="3500" id="research" data-scale="1">
+        <div id="research" class="step" data-x="0" data-y="0" data-rotate-y="270" data-z="3500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>User research</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="180" data-z="2500" id="appraisal" data-scale="1">
+        <div id="appraisal" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="180" data-z="2500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Technology appraisal</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="90" data-z="1500" id="flow" data-scale="1">
+        <div id="flow" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="90" data-z="1500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Flow map</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="180" data-z="500" id="reqts" data-scale="1">
+        <div id="reqts" class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="180" data-z="500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Requirements document</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="270" data-z="-500" id="prototype" data-scale="1">
+        <div id="prototype" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="270" data-z="-500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Interface prototype</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="0" data-z="-1500" id="polish" data-scale="1">
+        <div id="polish" class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="0" data-z="-1500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Visuals and polish</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="180" data-z="-2500" id="development" data-scale="1">
+        <div id="development" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="180" data-z="-2500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Development</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="90" data-z="-3500" id="testing" data-scale="1">
+        <div id="testing" class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="90" data-z="-3500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Testing</h2>
         </div>
-        <div class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="270" data-z="-4500" id="iteration" data-scale="1">
+        <div id="iteration" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="270" data-z="-4500" data-scale="1">
+            <header class="headline">UX Process</header>
             <h2>Iteration</h2>
+        </div>
+    </section>
+    <section id="credits">
+        <div id="questions" class="step" data-x="0" data-y="1000" data-z="-1000" data-rotate-y="90" data-rotate-z="90" data-scale="40">
+            <header class="headline">Where's the UXit?</header>
+            <h2>Questions? Feedback? Donations?</h2>
+            <iframe class="ib center" src="https://giphy.com/embed/uE0mcOJUQu6Xe" width="450" height="228" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
     </section>
 </div>
@@ -234,11 +318,6 @@
     CSS transform docs: https://developer.mozilla.org/en/CSS/transform
 
 -->
-
-<div class="hint">
-    <p>Navigate with <code>&larr;</code> <code>&rarr;</code></p>
-</div>
-
 <script>
 if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Tap left or right to navigate</p>";

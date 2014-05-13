@@ -1,64 +1,45 @@
-/*
-Syntax error: Undefined variable: "$pns".
-        on line 7 of src/css/base.scss
+/*element styles*/
+html {
+  font-size: 16px; }
 
-2: html {
-3:   font-size: 16px;
-4: }
-5: 
-6: body {
-7:   font-family: $pns;
-8:   line-height: 1.5;
-9:   min-height: 48em;
-10:   background: $black;
-11:   color: $white
-12: }
+body {
+  font-family: "proxima-nova-soft", serif;
+  line-height: 1.5;
+  min-height: 48em;
+  background: black;
+  color: white; }
 
-Backtrace:
-src/css/base.scss:7
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/Users/kerry/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$pns\".\A         on line 7 of src/css/base.scss\A \A 2: html {\A 3:   font-size: 16px;\A 4: }\A 5: \A 6: body {\A 7:   font-family: $pns;\A 8:   line-height: 1.5;\A 9:   min-height: 48em;\A 10:   background: $black;\A 11:   color: $white\A 12: }"; }
+h2, h3 {
+  text-align: center;
+  font-weight: 500; }
+
+b, strong {
+  font-weight: bold; }
+
+i, em {
+  font-style: oblique; }
+
+a, a:link {
+  color: inherit;
+  border-bottom: 1px solid #00aaff;
+  padding-bottom: .0625em;
+  margin-bottom: -.0625em;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  color: #00aaff; }
+
+a:visited, a:visited:hover {
+  border-color: #aaaaaa; }
+
+* .small, small {
+  font-size: .5em;
+  line-height: .5;
+  line-height: inherit;
+  display: inline-block; }
+
+ul {
+  list-style: disc outside; }
+
+ol {
+  list-style: decimal outside; }
