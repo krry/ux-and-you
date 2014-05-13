@@ -35,7 +35,6 @@ body {
   height: 1000px;
   padding: 4em 4em 2em;
   margin: 0 auto;
-  // background: rgba(60, 255, 60, 0.1);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style:    preserve-3d;
   -ms-transform-style:     preserve-3d;
@@ -326,10 +325,11 @@ label {
   font-size: 2em;
 }
 
-.back-home, .back-home:hover {
+.hint .back-home, .hint .back-home:hover {
   line-height: 1;
   vertical-align: -.125em;
   display: inline-block;
+  padding: 0 .2em;
   border: 1px solid white;
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "ux",
   "version": "0.0.1",
-  "description": "a site that considers ux",
+  "description": "all about UX",
   "main": "app.js",
   "dependencies": {
     "body-parser": "~1.0.2",

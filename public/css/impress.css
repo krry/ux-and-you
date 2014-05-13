@@ -269,10 +269,11 @@ label {
 .hint a:not(.back-home) {
   font-size: 2em; }
 
-.back-home, .back-home:hover {
+.hint .back-home, .hint .back-home:hover {
   line-height: 1;
   vertical-align: -.125em;
   display: inline-block;
+  padding: 0 .2em;
   border: 1px solid white; }
 
 .instructions {
