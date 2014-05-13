@@ -10,8 +10,8 @@ body {
 
 // technicality classes
 .fallback {
-  font-family: serif;
-  color: maroon;
+  font-family: $pns;
+  color: white;
   line-height: 1.5;
   width: 40em;
   margin: 2em auto;
@@ -104,6 +104,10 @@ body {
   margin: 1em 6rem;
 }
 
+.step p.center {
+  text-align: center;
+}
+
 .step aside {
   font-size: 1.5em;
   margin: 1em 6rem;
@@ -131,6 +135,7 @@ body {
   display: inline-block;
   margin: 1em auto;
   border: 3px solid;
+  position: relative;
 }
 
 .slide {
@@ -162,11 +167,20 @@ body {
 }
 
 .ib.center {
-  margin: 0 auto;
+  margin: 0 auto 1em;
   display: block;
 }
 
-.just > * {
+.ib.half {
+  width: 48%;
+}
+
+.ib.half * {
+  text-align: left;
+  margin: 1em 0;
+}
+
+.step .just > * {
   font-size: 1rem;
 }
 
@@ -251,7 +265,7 @@ q:after {
   text-align: left;
   opacity: 0.75;
   border-bottom: 1px solid;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   color: $white;
 }
 
@@ -261,6 +275,10 @@ q:after {
 
 #intro iframe, #intro a {
   border-color: $green;
+}
+
+#spectrum iframe, #spectrum a {
+  border-color: $blue;
 }
 
 .back-home {
@@ -341,16 +359,20 @@ label {
   display: inline;
 }
 
-.present * {
-
+.step.past iframe, .step.future iframe {
+  display: none;
 }
 
-.past *, .past {
+.step.present iframe {
+  display: auto;
+}
+
+.step.past *, .step.past {
   opacity: 0;
 
 }
 
-.future *, .future {
+.step.future *, .step.future {
   opacity: 0;
 
 }
@@ -395,6 +417,21 @@ label {
 
 #recap {
   background: transparentize(darken($blue, .8), .8);
+  padding: 0;
+}
+
+.impress-on-recap #recap {
+  background: $black;
+}
+
+#recap img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#field img {
+  max-height: 30em;
 }
 
 #spectrum {}

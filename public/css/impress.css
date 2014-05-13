@@ -6,8 +6,8 @@ body {
   transform-style: preserve-3d; }
 
 .fallback {
-  font-family: serif;
-  color: maroon;
+  font-family: "proxima-nova-soft", serif;
+  color: white;
   line-height: 1.5;
   width: 40em;
   margin: 2em auto;
@@ -83,6 +83,9 @@ body {
   font-size: 1.5em;
   margin: 1em 6rem; }
 
+.step p.center {
+  text-align: center; }
+
 .step aside {
   font-size: 1.5em;
   margin: 1em 6rem;
@@ -105,7 +108,8 @@ body {
 .step iframe {
   display: inline-block;
   margin: 1em auto;
-  border: 3px solid; }
+  border: 3px solid;
+  position: relative; }
 
 .slide {
   display: block;
@@ -132,10 +136,17 @@ body {
   text-align: left; }
 
 .ib.center {
-  margin: 0 auto;
+  margin: 0 auto 1em;
   display: block; }
 
-.just > * {
+.ib.half {
+  width: 48%; }
+
+.ib.half * {
+  text-align: left;
+  margin: 1em 0; }
+
+.step .just > * {
   font-size: 1rem; }
 
 .eg.ib {
@@ -206,7 +217,7 @@ q:after {
   text-align: left;
   opacity: 0.75;
   border-bottom: 1px solid;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   color: white; }
 
 #intro .headline {
@@ -214,6 +225,9 @@ q:after {
 
 #intro iframe, #intro a {
   border-color: #aaff00; }
+
+#spectrum iframe, #spectrum a {
+  border-color: #00aaff; }
 
 .back-home {
   font-size: 3em;
@@ -282,10 +296,16 @@ label {
 .impress-on-overview .instructions, .impress-on-whack .instructions, .impress-on-iteration .instructions {
   display: inline; }
 
-.past *, .past {
+.step.past iframe, .step.future iframe {
+  display: none; }
+
+.step.present iframe {
+  display: auto; }
+
+.step.past *, .step.past {
   opacity: 0; }
 
-.future *, .future {
+.step.future *, .step.future {
   opacity: 0; }
 
 #process .step {
@@ -304,7 +324,19 @@ label {
   background: rgba(0, 167, 251, 0.3); }
 
 #recap {
-  background: rgba(0, 167, 251, 0.2); }
+  background: rgba(0, 167, 251, 0.2);
+  padding: 0; }
+
+.impress-on-recap #recap {
+  background: black; }
+
+#recap img {
+  height: 100%;
+  display: block;
+  margin: 0 auto; }
+
+#field img {
+  max-height: 30em; }
 
 #questions {
   background: black; }
