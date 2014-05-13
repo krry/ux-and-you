@@ -40,8 +40,6 @@
 <div id="impress" data-transition-duration="750" data-perspective="1000">
 
     <section id="overview" class="step" data-x="0" data-y="0" data-z="0" data-scale="20">
-        <div class="left side">you</div>
-        <div class="right side">tech</div>
     </section>
 
     <section id="intro">
@@ -82,11 +80,12 @@
                 <iframe class="ib" src="https://giphy.com/embed/FxBgVD0rdBrnW" width="334" height="251" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 <iframe src="https://giphy.com/embed/O1xeZ4AgSaNBS" width="357" height="251" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
+            <aside>It's not a specialization, it's a discipline<br>&mdash;like <em>wing chun</em> or <em>jeet kune do</em></aside>
         </div>
 
         <div id="myths" class="step tier5" data-x="-3764" data-y="1410" data-z="8" data-rotate="150" data-scale="1">
             <header class="headline">UX Myths</header>
-            <aside>Before we get into the nitty-gritty</aside>
+            <aside>Before we get into the <a href="#technology">nitty-gritty</a></aside>
             <h2>Let's bust a few myths</h2>
             <iframe class="ib center" src="https://giphy.com/embed/wXgBk2fM696gM" width="450" height="253" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
@@ -174,7 +173,7 @@
 
         <div id="complexity" class="step" data-x="-1212" data-y="-2216" data-z="1" data-rotate="0" data-rotate-y="180" data-scale="1">
             <header class="headline">UXample</header>
-            <p>How many smartphone users understand how a mutual capacitive touchscreen works?</p>
+            <p>How many smartphone users understand how a mutual capacitance touchscreen works?</p>
 
             <p>Rightly so! It took dozens of patents, and thousands and thousands of <span class="dropcap">R&amp;D</span> hours to bring touchscreen smartphones to market.</p>
             <ol class="tray content tiny ib">
@@ -199,7 +198,16 @@
         </div>
     </section>
 
+    <section id="midpoint" class="step overview" data-x="0" data-y="0" data-z="0" data-scale="20">
+        <div class="left side">you</div>
+        <div class="right side">tech</div>
+    </section>
+
     <section id="spectrum">
+        <div id="recap" class="step" data-x="2500" data-y="0" data-rotate="0" data-scale="1">
+            <img src="img/UX_spectrum.gif" alt="UX Spectrum">
+        </div>
+
         <div id="technology" class="step facet" data-x="4000" data-y="1920" data-rotate="150" data-scale="1">
             <header class="headline">UX Facets: Technology</header>
             <p class="center">A UXer strives to make technology serve the user.</p>
@@ -218,27 +226,37 @@
         </div>
         <div id="aesthetics" class="step facet" data-x="1000" data-y="1920" data-rotate="30" data-scale="1">
             <header class="headline">UX Facets: Aesthetics</header>
-            <h2>Aesthetics</h2>
-            <p>Purely functional technology is frightening, sometimes ugly, so it repels many potential users</p>
+            <h3>The aim is to attract, not repel.</h3>
+            <aside>Purely functional technology is frightening, sometimes ugly.</aside>
+            <img src="/img/aesthetics.jpg" alt="Downtown">
         </div>
         <div id="economics" class="step facet" data-x="4000" data-y="-1920" data-rotate="-150" data-scale="1">
             <header class="headline">UX Facets: Economics</header>
-            <h2>Economics</h2>
-            <p>A UXer needs a sponsor, client, or business that understands the value of a good experience</p>
+            <h3>What are we doing for the user?</h3>
+            <aside>A sponsor, client, or business provides the objective</aside>
+            <img class="ib center" src="/img/ground-control.png" alt="Ground Control">
         </div>
         <div id="stakeholders" class="step role" data-x="3515" data-y="-1080" data-rotate="-150" data-scale="1">
             <header class="headline">UX Facets: Economics</header>
-            <h2>Stakeholders</h2>
-            <p>provide a goal, a problem worth solving</p>
+            <header class="player">Key Player #1</header>
+            <h2>The Stakeholder</h2>
+            <h4>Identifies a problem worth solving<br>Provides support to solve it</h4>
+            <img src="/img/picard.jpg" alt="Captain Picard" class="ib center">
+            <aside>Engage</aside>
         </div>
         <div id="designers" class="step role" data-x="1485" data-y="1080" data-rotate="30" data-scale="1">
             <header class="headline">UX Facets: Aesthetics</header>
-            <h2>Designers</h2>
-            <p>given a well-defined problem, can determine and describe the optimal solution</p>
+            <header class="player">Key Player #2</header>
+            <h2>The Designer</h2>
+            <h4>Finds a solution and ably describes it</h4>
+            <iframe class="ib center" src="https://giphy.com/embed/RwcSk0QjpcpQQ" width="500" height="269" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <aside>"If you got a problem, yo, I'll solve it"</aside>
         </div>
         <div id="devs" class="step role" data-x="3515" data-y="1080" data-rotate="150" data-scale="1">
             <header class="headline">UX Facets: Technology</header>
-            <h3>Devs can build anything</h3>
+            <header class="player">Key Player #3</header>
+            <h2>The Developer</h2>
+            <h4>Devs can build anything</h4>
             <div class="just tray full">
                 <iframe class="ib center" src="https://giphy.com/embed/gU25raLP4pUu4" width="427" height="320" frameBorder="0" zwebkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 <aside>just ask them</aside>
@@ -247,34 +265,36 @@
         </div>
         <div id="users" class="step role" data-x="1485" data-y="-1080" data-rotate="-30" data-scale="1">
             <header class="headline">UX Facets: Psychology</header>
-            <h2>Users</h2>
-            <h3>have wants and needs</h3>
+            <header class="player">Key Player #4</header>
+            <h2>The User</h2>
+            <h3>is unfulfilled</h3>
+            <iframe class="ib center" src="https://giphy.com/embed/Vh8hCtgY93S6Y" width="500" height="213" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <aside>Sometimes users know what they want<br>other times they have a more vague need.</aside>
         </div>
         <div id="human" class="step example" data-x="1970" data-y="-240" data-rotate="-30" data-scale="1">
             <header class="headline">UX Facets: Psychology</header>
-            <h2>Person's name</h2>
-            <p>What this person wants or needs</p>
+            <h2>Example User</h2>
             <img src="img/human.jpg" alt="human">
-        </div>
-        <div id="app" class="step example" data-x="3030" data-y="240" data-rotate="150" data-scale="1">
-            <header class="headline">UX Facets: Technology</header>
-            <h2>App name=</h2>
-            <p>The application of algorithms and heuristics to a problem can represent untold value</p>
+            <aside>"I don't have enough thing"</aside>
         </div>
         <div id="design" class="step example" data-x="1970" data-y="240" data-rotate="30" data-scale="1">
             <header class="headline">UX Facets: Aesthetics</header>
-            <h2>Design name</h2>
-            <p>This solution, if we can build it, will delight every user.</p>
-            <iframe class="ib center" src="https://giphy.com/embed/pdKaXbHNup0Eo?playOnHover=true" width="400" height="225" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <h2>Example Design</h2>
+            <aside>"I know <strong>exactly</strong> how to do this!"</aside>
+            <iframe class="ib center" src="https://giphy.com/embed/pdKaXbHNup0Eo" width="400" height="225" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <h4>#winning</h4>
+        </div>
+        <div id="app" class="step example" data-x="3030" data-y="240" data-rotate="150" data-scale="1">
+            <header class="headline">UX Facets: Technology</header>
+            <h2>Example Development</h2>
+            <p>"The proper application of these algorithms to this problem will yield untold returns and stimulate an inordinate tidal wave of heuristics"</p>
+            <img src="/img/doge.png" alt="Dev Doge" class="ib center">
         </div>
         <div id="product" class="step example" data-x="3030" data-y="-240" data-rotate="-150" data-scale="1">
             <header class="headline">UX Facets: Economics</header>
-            <h2>Product name</h2>
-            <p>With enough users, this product will better our world.</p>
-        </div>
-
-        <div id="recap" class="step" data-x="2500" data-y="0" data-rotate="0" data-scale="1">
-            <img src="img/UX_spectrum.gif" alt="UX Spectrum">
+            <h2>Example Product</h2>
+            <h4>"We're taking this to market!"</h4>
+            <iframe class="ib center" src="https://giphy.com/embed/12Rq9uCNxcxtjq" width="530" height="360" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
 
     </section>

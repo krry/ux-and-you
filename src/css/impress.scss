@@ -89,13 +89,13 @@ body {
 
 .step h3 {
   font-size: 3em;
-  margin: 0 6rem 1em;
+  margin: 0 6rem .5em;
   text-align: center;
 }
 
 .step h4 {
   font-size: 2.25em;
-  margin: 0 6rem 1em;
+  margin: 0 6rem .5em;
   text-align: center;
 }
 
@@ -136,6 +136,10 @@ body {
   margin: 1em auto;
   border: 3px solid;
   position: relative;
+}
+
+.step img {
+  border: 3px solid;
 }
 
 .slide {
@@ -210,23 +214,7 @@ body {
   margin: .25em 0;
 }
 
-.step q {
-  text-align: left;
-}
-
-q:before {
-  content: "\201C";
-}
-
-q:after {
-  content: "\201D";
-}
-
-.emph {
-  color: $green;
-}
-
-#overview {
+#overview, #midpoint {
   background: none;
   position: relative;
   -webkit-transition: all 2000ms ease-in-out;
@@ -236,7 +224,7 @@ q:after {
   transition: all 2000ms ease-in-out;
 }
 
-#overview .side {
+#midpoint .side {
   position: absolute;
   margin: auto;
   top: 50%;
@@ -246,16 +234,16 @@ q:after {
   font-weight: 100;
 }
 
-#overview .left.side {
+#midpoint .left.side {
   left: 0;
 }
 
-#overview .right.side {
+#midpoint .right.side {
   right: 0;
 }
 
-.impress-on-overview .step:not(#overview) {
-  opacity: 1;
+.impress-on-overview .step:not(#overview), .impress-on-midpoint .step:not(#midpoint) {
+  opacity: 2;
   cursor: pointer;
 }
 
@@ -269,16 +257,20 @@ q:after {
   color: $white;
 }
 
-#intro .headline {
+#intro .headline, #intro .emph {
   color: $green;
 }
 
-#intro iframe, #intro a {
+#intro iframe, #intro a, #intro img {
   border-color: $green;
 }
 
-#spectrum iframe, #spectrum a {
+#spectrum iframe, #spectrum a, #spectrum img {
   border-color: $blue;
+}
+
+#process iframe, #process a, #process img {
+  border-color: $mag;
 }
 
 .back-home {
@@ -288,6 +280,12 @@ q:after {
 
 .back-home:hover {
   opacity: 1;
+}
+
+header.player {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: -1em;
 }
 
 label {
