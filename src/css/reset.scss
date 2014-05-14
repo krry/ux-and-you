@@ -44,6 +44,13 @@ table {
     border-spacing: 0;
 }
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body,p,td,div {
+  word-wrap: break-word;
 }

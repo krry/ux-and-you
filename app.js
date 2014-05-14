@@ -23,4 +23,8 @@ app.get('/demo', function(req, res) {
   res.render('index.html');
 });
 
+app.get('/hero-guidelines', function(req, res) {
+  res.render('hero-guidelines.html')
+})
+
 app.listen(app.get('port'));

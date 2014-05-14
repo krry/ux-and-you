@@ -5,7 +5,6 @@ html {
 body {
   font-family: "proxima-nova-soft", serif;
   line-height: 1.5;
-  min-height: 48em;
   background: black;
   color: white; }
 
@@ -46,3 +45,7 @@ ol {
 
 ul, ol, dl {
   padding-left: 1.5em; }
+
+::selection {
+  background-color: var(#aaff00);
+  color: white; }

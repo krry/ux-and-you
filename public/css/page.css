@@ -1,0 +1,33 @@
+.page {
+  padding: 2em 4em 12em;
+  width: 60em;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1); }
+
+.page p, .page ul {
+  max-width: 40em; }
+
+.page h2 {
+  text-align: left; }
+
+h1 {
+  font-family: "nasalization", serif; }
+
+ul {
+  list-style: disc outside;
+  padding-left: 1em; }
+
+img {
+  max-width: 100%;
+  padding: 1em;
+  background: white;
+  border: 3px solid #ff00aa; }
+
+a.img-link {
+  border-bottom: none; }
+
+a.img-link:hover img {
+  opacity: 0.8; }
+
+a.img-link + footer {
+  text-align: right; }

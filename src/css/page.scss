@@ -1,0 +1,44 @@
+@import "vars";
+
+.page {
+  padding: 2em 4em 12em;
+  width: 60em;
+  margin: 0 auto;
+  background: transparentize($white, 0.9);
+}
+
+.page p, .page ul {
+  max-width: 40em;
+}
+
+.page h2 {
+  text-align: left;
+}
+
+h1 {
+  font-family: $nasa;
+}
+
+ul {
+  list-style: disc outside;
+  padding-left: 1em;
+}
+
+img {
+  max-width: 100%;
+  padding: 1em;
+  background: $white;
+  border: 3px solid $mag;
+}
+
+a.img-link {
+  border-bottom: none;
+}
+
+a.img-link:hover img {
+  opacity: 0.8;
+}
+
+a.img-link + footer {
+  text-align: right;
+}
