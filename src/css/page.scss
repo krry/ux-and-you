@@ -1,10 +1,19 @@
 @import "vars";
 
 .page {
-  padding: 2em 4em 12em;
-  width: 60em;
-  margin: 0 auto;
+  padding: 2em 0 12em;
   background: transparentize($white, 0.9);
+}
+
+.tray {
+  width: 60rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+
+.hero.example {
+  text-align: center;
+  margin: 2em 0;
 }
 
 .page p, .page ul {
@@ -41,4 +50,10 @@ a.img-link:hover img {
 
 a.img-link + footer {
   text-align: right;
+}
+
+@media (screen and min-width: 75em) {
+  html {
+    font-size: 20px;
+  }
 }
