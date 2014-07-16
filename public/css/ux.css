@@ -72,7 +72,7 @@ i, em {
 
 a, a:link {
   color: inherit;
-  border-bottom: 1px solid #00aaff;
+  border-bottom: 1px solid;
   padding-bottom: .0625em;
   margin-bottom: -.0625em;
   text-decoration: none; }
@@ -177,6 +177,7 @@ body {
 .step h3 {
   font-size: 3em;
   margin: 0 6rem .5em;
+  line-height: 1.25;
   text-align: center; }
 
 .step h4 {
@@ -312,20 +313,20 @@ body {
   font-size: 2em;
   text-align: left;
   opacity: 0.75;
+  color: white;
   border-bottom: 1px solid;
-  margin-bottom: 1em;
-  color: white; }
+  margin-bottom: 1em; }
 
 #intro .headline, #intro .emph {
   color: #aaff00; }
 
-#intro iframe, #intro a, #intro img {
+#intro iframe, #intro a:hover, #intro img {
   border-color: #aaff00; }
 
-#spectrum iframe, #spectrum a, #spectrum img {
+#spectrum iframe, #spectrum a:hover, #spectrum img {
   border-color: #00aaff; }
 
-#process iframe, #process a, #process img {
+#process iframe, #process a:hover, #process img {
   border-color: #ff00aa; }
 
 .back-home {
