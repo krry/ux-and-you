@@ -22,7 +22,7 @@ i, em     { font-style: oblique }
 
 a, a:link {
   color: inherit;
-  border-bottom: 1px solid $links;
+  border-bottom: 1px solid;
   padding-bottom: .0625em;
   margin-bottom: -.0625em;
   text-decoration: none;
