@@ -122,13 +122,13 @@ body {
 }
 
 .step .tray.content, .step .content {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  // margin-left: 6rem;
+  // margin-right: 6rem;
 }
 
 .step .tray.full, .step .full {
-  margin-left: 0rem;
-  margin-right: 0rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
 }
 
 .step iframe {
@@ -140,6 +140,11 @@ body {
 
 .step img {
   border: 3px solid;
+}
+
+.step footer {
+  position: absolute;
+  bottom: 4rem;
 }
 
 .slide {
@@ -155,6 +160,10 @@ body {
 .just, .tray.just {
   font-size: 0.1px;
   text-align: justify;
+}
+
+.center, .tray.center {
+  text-align: center;
 }
 
 .just:after {
