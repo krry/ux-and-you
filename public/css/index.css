@@ -50,15 +50,14 @@ table {
 body, p, td, div {
   word-wrap: break-word; }
 
-/*element styles*/
 html {
   font-size: 16px; }
 
 body {
-  font-family: "proxima-nova-soft", serif;
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
   line-height: 1.5;
-  background: black;
-  color: white; }
+  background: #000;
+  color: #fff; }
 
 h2, h3 {
   text-align: center;
@@ -78,10 +77,10 @@ a, a:link {
   text-decoration: none; }
 
 a:hover, a:focus {
-  color: #00aaff; }
+  color: #0af; }
 
 a:visited, a:visited:hover {
-  border-color: #aaaaaa; }
+  border-color: #aaa; }
 
 * .small, small {
   font-size: .5em;
@@ -99,8 +98,8 @@ ul, ol, dl {
   padding-left: 1.5em; }
 
 ::selection {
-  background-color: var(#aaff00);
-  color: white; }
+  background-color: var(#af0);
+  color: #fff; }
 
 body {
   -webkit-transform-style: preserve-3d;
@@ -111,7 +110,7 @@ body {
   min-height: 48em; }
 
 .fallback {
-  font-family: "proxima-nova-soft", serif;
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
   color: white;
   line-height: 1.5;
   width: 40em;
@@ -224,9 +223,9 @@ body {
   display: block;
   width: 60em;
   height: 45em;
-  background: white;
+  background: #fff;
   border: 1px solid;
-  color: #444444;
+  color: #444;
   font-size: 2em; }
 
 .just, .tray.just {
@@ -274,7 +273,7 @@ body {
   font-size: 1.5em;
   text-transform: uppercase;
   vertical-align: middle;
-  font-family: "nasalization", serif;
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
   font-style: normal;
   line-height: .5;
   display: inline-block;
@@ -309,25 +308,25 @@ body {
   cursor: pointer; }
 
 .headline {
-  font-family: "nasalization", serif;
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
   font-size: 2em;
   text-align: left;
   opacity: 0.75;
-  color: white;
+  color: #fff;
   border-bottom: 1px solid;
   margin-bottom: 1em; }
 
 #intro .headline, #intro .emph {
-  color: #aaff00; }
+  color: #af0; }
 
 #intro iframe, #intro a:hover, #intro img {
-  border-color: #aaff00; }
+  border-color: #af0; }
 
 #spectrum iframe, #spectrum a:hover, #spectrum img {
-  border-color: #00aaff; }
+  border-color: #0af; }
 
 #process iframe, #process a:hover, #process img {
-  border-color: #ff00aa; }
+  border-color: #f0a; }
 
 .back-home {
   font-size: 3em;
@@ -433,7 +432,7 @@ label {
   padding: 0; }
 
 .impress-on-recap #recap {
-  background: black; }
+  background: #000; }
 
 #recap img {
   height: 100%;
@@ -444,4 +443,51 @@ label {
   max-height: 30em; }
 
 #questions {
-  background: black; }
+  background: #000; }
+
+.page {
+  padding: 2em 0 12em;
+  background: rgba(255, 255, 255, 0.1); }
+
+.tray {
+  width: 60rem;
+  padding: 0 4rem;
+  margin: 0 auto; }
+
+.hero.example {
+  text-align: center;
+  margin: 2em 0; }
+
+.page p, .page ul {
+  max-width: 40em; }
+
+.page h2 {
+  text-align: left; }
+
+h1 {
+  font-family: -apple-system, "Helvetica Neue", sans-serif; }
+
+ul {
+  list-style: disc outside;
+  padding-left: 1em; }
+
+img {
+  max-width: 100%;
+  padding: 1em;
+  background: #fff;
+  border: 3px solid #f0a; }
+
+a.img-link {
+  border-bottom: none; }
+
+a.img-link:hover img {
+  opacity: 0.8; }
+
+a.img-link + footer {
+  text-align: right; }
+
+@media (min-width: 75em) {
+  html {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=index.css.map */

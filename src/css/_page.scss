@@ -1,5 +1,3 @@
-@import "vars";
-
 .page {
   padding: 2em 0 12em;
   background: transparentize($white, 0.9);
@@ -25,7 +23,7 @@
 }
 
 h1 {
-  font-family: $nasa;
+  font-family: $font;
 }
 
 ul {
