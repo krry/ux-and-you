@@ -450,30 +450,37 @@ body {
   background: #000;
   color: #fff; }
 
-h2, h3 {
+h2,
+h3 {
   text-align: center;
   font-weight: 500; }
 
-b, strong {
+b,
+strong {
   font-weight: bold; }
 
-i, em {
+i,
+em {
   font-style: oblique; }
 
-a, a:link {
+a,
+a:link {
   color: inherit;
   border-bottom: 1px solid;
   padding-bottom: .0625em;
   margin-bottom: -.0625em;
   text-decoration: none; }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #0af; }
 
-a:visited, a:visited:hover {
+a:visited,
+a:visited:hover {
   border-color: #aaa; }
 
-* .small, small {
+* .small,
+small {
   font-size: .5em;
   line-height: .5;
   line-height: inherit;
@@ -485,7 +492,9 @@ ul {
 ol {
   list-style: decimal outside; }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   padding-left: 1.5em; }
 
 ::selection {
