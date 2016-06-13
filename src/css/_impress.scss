@@ -1,5 +1,3 @@
-@import "vars";
-
 body {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style:    preserve-3d;
@@ -124,13 +122,13 @@ body {
 }
 
 .step .tray.content, .step .content {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  // margin-left: 6rem;
+  // margin-right: 6rem;
 }
 
 .step .tray.full, .step .full {
-  margin-left: 0rem;
-  margin-right: 0rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
 }
 
 .step iframe {
@@ -142,6 +140,11 @@ body {
 
 .step img {
   border: 3px solid;
+}
+
+.step footer {
+  position: absolute;
+  bottom: 4rem;
 }
 
 .slide {
@@ -157,6 +160,10 @@ body {
 .just, .tray.just {
   font-size: 0.1px;
   text-align: justify;
+}
+
+.center, .tray.center {
+  text-align: center;
 }
 
 .just:after {
@@ -314,11 +321,11 @@ label {
   -ms-transform: translateZ(20em);
   -o-transform: translateZ(20em);
   transform: translateZ(20em);
-  -webkit-transition: opacity 2000ms ease-out;
-  -moz-transition: opacity 2000ms ease-out;
-  -ms-transition: opacity 2000ms ease-out;
-  -o-transition: opacity 2000ms ease-out;
-  transition: opacity 2000ms ease-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .hint.out {

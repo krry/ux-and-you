@@ -24,3 +24,5 @@ app.get('/hero', function(req, res) {
 })
 
 app.listen(app.get('port'));
+
+console.log('listening on', app.get('port'));

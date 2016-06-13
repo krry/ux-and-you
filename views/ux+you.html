@@ -22,8 +22,8 @@
 <body class="impress-not-supported">
 
 <div class="fallback">
-    <p>Your browser may be failing you.</p>
-    <p>Instead, try <a href="https://www.google.com/intl/en_US/chrome/browser/">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</p>
+    <p>Your browser is incapable of delivering this experience properly.</p>
+    <p>Try out <a href="https://www.google.com/intl/en_US/chrome/browser/">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</p>
 </div>
 
 <div class="hint">
@@ -34,22 +34,6 @@
         <a id="next_slide" onclick="impress().next()">&rarr;</a>
     </nav>
 </div>
-
-<!--
-
-    a summary of all the possible attributes used to position presentation steps
-
-    * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
-        the canvas in pixels; their default value is 0;
-    * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
-        the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
-        are exactly the same;
-    * `data-scale` - defines the scale of step element; default value is 1
-
-    These values are used by impress.js in CSS transformation functions, so for more information consult
-    CSS transform docs: https://developer.mozilla.org/en/CSS/transform
-
--->
 
 <div id="impress" data-transition-duration="750" data-perspective="1000">
 
@@ -358,7 +342,7 @@
         </div>
         <div id="polish" class="step" data-x="0" data-y="0" data-rotate-y="90" data-rotate-x="0" data-z="-1500" data-scale="1">
             <header class="headline">UX Process</header>
-            <h2>Aesthetics and polish</h2>
+            <h2>Visuals and polish</h2>
             <p>Once things are operational, you can bring the designers in. It's much more difficult to polish an imaginary stone than a real one.</p>
         </div>
         <div id="development" class="step" data-x="0" data-y="0" data-rotate-y="270" data-rotate-x="180" data-z="-2500" data-scale="1">
@@ -376,7 +360,21 @@
     </section>
 </div>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!--
+
+    a summary of all the possible attributes used to position presentation steps
+
+    * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+        the canvas in pixels; their default value is 0;
+    * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+        the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+        are exactly the same;
+    * `data-scale` - defines the scale of step element; default value is 1
+
+    These values are used by impress.js in CSS transformation functions, so for more information consult
+    CSS transform docs: https://developer.mozilla.org/en/CSS/transform
+
+-->
 <script src="js/app.js"></script>
 <script>
 if ("ontouchstart" in document.documentElement) {
