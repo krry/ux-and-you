@@ -16,15 +16,11 @@ app.use(require('method-override')());
 app.set('port', port);
 
 app.get('/', function(req, res) {
-  res.render('ux+you.html');
-});
-
-app.get('/demo', function(req, res) {
   res.render('index.html');
 });
 
-app.get('/hero-guidelines', function(req, res) {
-  res.render('hero-guidelines.html')
+app.get('/hero', function(req, res) {
+  res.render('hero.html')
 })
 
 app.listen(app.get('port'));

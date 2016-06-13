@@ -10,5 +10,8 @@
   "author": {
     "name": "Kerry Snyder",
     "web": "http://krry.github.com"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4"
   }
 }
