@@ -28,7 +28,16 @@ h1 {
 
 ul {
   list-style: disc outside;
-  padding-left: 1em;
+  margin: 2rem 6rem;
+}
+
+ol {
+  margin: 2rem 6rem;
+}
+
+ol li {
+  margin-bottom: 0.25em;
+  font-size: 1.5em;
 }
 
 img {
